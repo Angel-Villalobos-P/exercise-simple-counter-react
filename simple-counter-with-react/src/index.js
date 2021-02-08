@@ -8,12 +8,12 @@ import SimpleCounter from './components/SimpleCounter';
 
 let cont = 0;
 setInterval(() => {
-    const six = Math.floor(cont / 100000);// ?
-    const five = Math.floor(cont / 10000);// ?
-    const four = Math.floor(cont / 1000);// ?
-    const three = Math.floor(cont / 100);// para la hora
-    const two = Math.floor(cont / 10);// minutos
-    const one = Math.floor(cont % 10);// segundos
+    const six = Math.floor(cont / 100000);
+    const five = Math.floor(cont / 10000);
+    const four = Math.floor(cont / 1000);
+    const three = Math.floor(cont / 100);
+    const two = Math.floor(cont / 10);
+    const one = Math.floor(cont % 10);
 
     cont++;
 
